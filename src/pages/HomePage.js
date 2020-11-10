@@ -13,8 +13,7 @@ export const HomePage = () => {
         <hr className="hero-hr" />
 
         <div className="hero-button-container">
-          <Link className="hero-button" to="/designer-collections/">browse collections</Link>
-          <a className="hero-button" href="http://roundwood.myshopify.com/" target="_blank" rel="noopener noreferrer">shop now</a>
+          <Link className="hero-button" to="/designer-collections/">explore gallery</Link>
         </div>
 
         <div id="hero-3dots">

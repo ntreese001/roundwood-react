@@ -1,7 +1,7 @@
 const headerLinks = [
   { id: 1, itemLink: "/about/", itemText: "About" },
-  { id: 2, itemLink: "/designer-collections/", itemText: "Designer Collections" },
-  { id: 3, itemLink: "/gallery-series/", itemText: "Gallery Series" },
+  { id: 2, itemLink: "/gallery-series/", itemText: "Gallery Series" },
+  { id: 3, itemLink: "/designer-collections/", itemText: "Designer Collections" },
   { id: 4, itemLink: "/custom-installations/", itemText: "Custom Installations" },
   { id: 5, itemLink: "/contact/", itemText: "Contact" },
   { id: 6, itemLink: "https://roundwood.myshopify.com", itemText: "Shop", target: "_blank" },
@@ -52,7 +52,7 @@ const homeContentColumns = [
   {
     id: 2,
     title: "Gallery Series",
-    text: "For over 15 years, Roundwood’s founder, ",
+    text: "For over 20 years, Roundwood’s founder, ",
     text2: ", has been creating functional art in the form of sculptural furniture. Each piece in his Gallery Series is a one-of-a-kind masterpiece, meticulously handcrafted to last for generations.",
     itemLink: "/gallery-series/",
     itemText: "some of our favorites",

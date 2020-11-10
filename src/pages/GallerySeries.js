@@ -12,7 +12,7 @@ export const GallerySeries = () => {
       <hr className="gray-hr" />
       <div className="gallery-series-intro">
         <p>
-          Below is a portion of a much larger body of work developed over the past 15 years. In approximate 5
+          Below is a portion of a much larger body of work developed over the past 20 years. In approximate 5
           year intervals of Cline’s career, new design fusions emerge, creating separate classes and styles,
           which manifest in new gallery series. These series often overlap and are frequently the result of multiple artist collaborations,
           as one source of inspiration naturally flows into another.

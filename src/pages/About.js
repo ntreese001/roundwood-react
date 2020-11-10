@@ -15,7 +15,7 @@ export const About = () => {
       <div className="gallery-series-intro">
         <p>
           In September 2000, a small woodworking studio on the north shore of Lake Tahoe opened
-          its doors to the journey of furniture artistry. Since its inception over 15 years ago,
+          its doors to the journey of furniture artistry. Since its inception over 20 years ago,
           Roundwood has created countless works of art and continues to celebrate its dedication
           to functional art in the form of world class nature-driven furniture design,
           still right here in nature’s cathedral, North Lake Tahoe.

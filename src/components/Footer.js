@@ -45,9 +45,7 @@ export const Footer = () => {
             <span>designed by: Cat Dunleavy | developed by: Jon Perkins</span>
           </div>
           <div>
-            <a href="mailto:contact@roundwoodfurniture.com" target="_blank" rel="noopener noreferrer" className="footer-contact">contact@roundwoodfurniture.com</a>
-            <br />
-            <a href="tel:530-548-5112" className="footer-contact">530-548-5112</a>
+            
           </div>
         </div>
       </div>

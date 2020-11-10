@@ -19,9 +19,10 @@ export const TradeSales = () => {
 
         <p>Members of our trade program receive discount pricing on all <Link to="/designer-collections/" className="text-link">Designer Collections </Link>
                             furniture as well as access to exclusive seasonal sales and introductory promotions.</p>
-
-        <p>Becoming a member is easy: simply register a new customer account in our online store using <a href="http://roundwood.myshopify.com/account/register" className="text-link">this link</a>,
-                            and provide company information and valid documentation using <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3BDAw_wBl5FURjOu5C-bvEqeDJkm_aXI2Y6uGZ9wlxfOm3Q/viewform" className="text-link" target="_blank" rel="noopener noreferrer">this form</a>. (see list of valid documentation below).
+          <div className="custom-installations-button-container">
+            <a className="black-button black-button-wide" href="https://docs.google.com/forms/d/e/1FAIpQLSf3BDAw_wBl5FURjOu5C-bvEqeDJkm_aXI2Y6uGZ9wlxfOm3Q/viewform" target="_blank"rel="noopener noreferrer">sign up now</a>
+          </div>
+        <p>To become a member, use the button above to provide your company information and credentials (see list below). Once we have processed your application and reviewed your credentials, you will receive an email with a discount code for our <a href="http://roundwood.myshopify.com" className="text-link" target="_blank"rel="noopener noreferrer">online store</a>. Discount pricing will also be honored for sales made offline.
                         </p>
 
         <p>
