@@ -40,7 +40,7 @@ export const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-row-4">
           <div>
-            <span>© 2015 Roundwood | All Rights Reserved</span>
+            <span>© 2021 Roundwood | All Rights Reserved</span>
             <br />
             <span>designed by: Cat Dunleavy | developed by: Jon Perkins</span>
           </div>

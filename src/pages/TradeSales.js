@@ -26,11 +26,6 @@ export const TradeSales = () => {
                         </p>
 
         <p>
-          Once we have processed your application and reviewed your credentials, you will receive an email with a discount code for
-                            our <a href="http://roundwood.myshopify.com" className="text-link">online store</a>. Discount pricing will also be honored for sales made offline.
-                        </p>
-
-        <p>
           One of the following credentials is required to become a member of our Trade Sales program:
                         </p>
 

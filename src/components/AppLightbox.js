@@ -21,7 +21,7 @@ class AppLightbox extends React.Component {
     return (
       <>
         <div className="collection-item" key={item.id} onClick={this.handleClick}>
-          <img src={item.src} alt={item.alt} />
+          <img src={item.thumbnail || item.src} alt={item.alt} />
           {item.title && <div className="image-overlay">
             {item.text && <p>{item.text}
               {item.textSpan
