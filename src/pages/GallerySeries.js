@@ -46,7 +46,7 @@ export const GallerySeries = () => {
               </div>
               {galleries.map((item, index) => {
                 return (
-                  item.category === category && <AppLightbox item={item} index={index} key={item.id} />
+                  item.category === category && <AppLightbox item={item} index={index} key={item.title} />
                 )
               })}
             </div>
