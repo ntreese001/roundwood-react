@@ -17,9 +17,6 @@ export const Contact = () => {
         <p>If so, please contact us using the form below. If time is of the essence, feel free to call us,
                                 but keep in mind that it may be difficult to answer the phone if we’re deep in the creative process.</p>
 
-        {/* <p>Phone: <a href="tel:530-548-5112">530-548-5112</a></p>
-        <p>Email:<a href="mailto:contact@roundwoodfurniture.com" target="_blank" rel="noopener noreferrer"> contact@roundwoodfurniture.com</a></p> */}
-        <p></p>
 
         <div className="margin-top-75 margin-bottom-75">
           <Link className="margin-0-auto black-button" to="/trade-sales/">trade sales sign-up</Link>

@@ -1,79 +1,105 @@
 const headerLinks = [
   { id: 1, itemLink: "/about/", itemText: "About" },
   { id: 2, itemLink: "/gallery-series/", itemText: "Gallery Series" },
-  { id: 3, itemLink: "/designer-collections/", itemText: "Designer Collections" },
-  { id: 4, itemLink: "/custom-installations/", itemText: "Custom Installations" },
+  {
+    id: 3,
+    itemLink: "/designer-collections/",
+    itemText: "Designer Collections",
+  },
+  {
+    id: 4,
+    itemLink: "/custom-installations/",
+    itemText: "Custom Installations",
+  },
   { id: 5, itemLink: "/contact/", itemText: "Contact" },
-  { id: 6, itemLink: "https://roundwood.myshopify.com", itemText: "Shop", target: "_blank" },
-]
+  {
+    id: 6,
+    itemLink: "https://roundwood.myshopify.com",
+    itemText: "Shop",
+    target: "_blank",
+  },
+];
 const footerMenu = [
   { id: 1, link: "/", text: "HOME" },
   { id: 2, link: "/about/", text: "ABOUT" },
   { id: 3, link: "/contact/", text: "CONTACT" },
-  { id: 4, link: "http://roundwood.myshopify.com/", target: "_blank", text: "SHOP" },
-]
+  {
+    id: 4,
+    link: "http://roundwood.myshopify.com/",
+    target: "_blank",
+    text: "SHOP",
+  },
+];
 const footerMenu2 = [
   { id: 1, link: "/designer-collections/", text: "DESIGNER COLLECTIONS" },
   { id: 2, link: "/gallery-series/", text: "GALLERY SERIES" },
   { id: 3, link: "/custom-installations/", text: "CUSTOM INSTALLATIONS" },
   { id: 4, link: "/trade-sales/", text: "TRADE SALES" },
-]
+];
 const about = [
   {
     id: 1,
     title: "HISTORY",
-    text: "Born and raised in Homer, AK, Andy Cline spent his most influential and formative years in an environment where nature clearly served as one’s teacher, guide, and wondrously powerful provider. The wilderness was a constant adventure and inspiring force for Cline, teaching him the profound lesson that all of life’s necessities, both tangible and intangible, can be derived directly from the natural world. This lesson became the foundation of Cline’s passions and a catalyst for his creative work.",
-    img: "cline_child"
+    text:
+      "Born and raised in Homer, AK, Andy Cline spent his most influential and formative years in an environment where nature clearly served as one’s teacher, guide, and wondrously powerful provider. The wilderness was a constant adventure and inspiring force for Cline, teaching him the profound lesson that all of life’s necessities, both tangible and intangible, can be derived directly from the natural world. This lesson became the foundation of Cline’s passions and a catalyst for his creative work.",
+    img: "cline_child",
   },
   {
     id: 2,
     title: "MASTERY",
-    text: "With over 40,000 hours dedicated to learning and developing his craft, Cline has achieved mastery status in his work. Thru this expertise comes true passion and commitment—a relentless drive to continue pushing forward in the journey of modern furniture artistry.",
+    text:
+      "With over 40,000 hours dedicated to learning and developing his craft, Cline has achieved mastery status in his work. Thru this expertise comes true passion and commitment—a relentless drive to continue pushing forward in the journey of modern furniture artistry.",
     img: "cline_mastery",
-    quote: "10,000 hours of practice is required to achieve the level of mastery associated with being a world-class expert.",
-    quoteSpan: "- Malcolm Gladwell"
+    quote:
+      "10,000 hours of practice is required to achieve the level of mastery associated with being a world-class expert.",
+    quoteSpan: "- Malcolm Gladwell",
   },
   {
     id: 3,
     title: "MISSION",
-    text: "With a mission to honor the inherent vibrancy and abundance of nature, Cline works to bring the voice of the wilderness directly into the lives and “living” rooms of humanity, in an authentic renaissance of environmental reverence. He tames, tempers, and treats his medium as little as possible, while designing in the interest of comfort, visual balance, and structural integrity.",
-    img: "cline_mission"
+    text:
+      "With a mission to honor the inherent vibrancy and abundance of nature, Cline works to bring the voice of the wilderness directly into the lives and “living” rooms of humanity, in an authentic renaissance of environmental reverence. He tames, tempers, and treats his medium as little as possible, while designing in the interest of comfort, visual balance, and structural integrity.",
+    img: "cline_mission",
   },
-]
+];
 const homeContentColumns = [
   {
     id: 1,
     title: "Designer Collections",
-    text: "Crafted as a refined alternative to our custom work, these furniture collections embrace modern design elements and high-quality materials. Each piece in these collections is signed and numbered by the artist and is available for purchase in our online shop.",
+    text:
+      "Crafted as a refined alternative to our custom work, these furniture collections embrace modern design elements and high-quality materials. Each piece in these collections is signed and numbered by the artist and is available for purchase in our online shop.",
     itemLink: "/designer-collections/",
     itemText: "browse collections",
-    image: "/img/vibrato_coffee_black.jpg"
+    image: "/img/vibrato_coffee_black.jpg",
   },
   {
     id: 2,
     title: "Gallery Series",
     text: "For over 20 years, Roundwood’s founder, ",
-    text2: ", has been creating functional art in the form of sculptural furniture. Each piece in his Gallery Series is a one-of-a-kind masterpiece, meticulously handcrafted to last for generations.",
+    text2:
+      ", has been creating functional art in the form of sculptural furniture. Each piece in his Gallery Series is a one-of-a-kind masterpiece, meticulously handcrafted to last for generations.",
     itemLink: "/gallery-series/",
     itemText: "some of our favorites",
     image: "/img/gallery/organic/kamleot_top_bright.jpg",
     link: "/about/",
-    linkText: "Andy Cline"
+    linkText: "Andy Cline",
   },
   {
     id: 3,
     title: "Custom Installations",
-    text: "Thanks to our inspired patrons, we’ve had the privilege to work on many large scale projects that have transformed ordinary spaces into exciting artistic experiences. These works often include several sculptural furnishings that come together to create a truly inspiring space punctuated with functional art.",
+    text:
+      "Thanks to our inspired patrons, we’ve had the privilege to work on many large scale projects that have transformed ordinary spaces into exciting artistic experiences. These works often include several sculptural furnishings that come together to create a truly inspiring space punctuated with functional art.",
     itemLink: "/custom-installations/",
     itemText: "explore our projects",
-    image: "/img/installations/squaw/uncorked_sv_03.jpg"
+    image: "/img/installations/squaw/uncorked_sv_03.jpg",
   },
-]
+];
 const designerCollectionsDescrioptions = [
   {
     id: 1,
     title: "WHY COLLECTIONS?",
-    text: "Our designer collections provide a refined opportunity to bring heirloom art pieces into your modern living environment. These collections are designed and crafted with the same level of care and artistry as our custom work."
+    text:
+      "Our designer collections provide a refined opportunity to bring heirloom art pieces into your modern living environment. These collections are designed and crafted with the same level of care and artistry as our custom work.",
   },
   {
     id: 2,
@@ -82,248 +108,424 @@ const designerCollectionsDescrioptions = [
     textSpan: "Interior Designers ",
     text2: "who purchase items from our Designer Collections.",
     linkText: "trade sales sign-up",
-    link: "/trade-sales/"
+    link: "/trade-sales/",
   },
   {
     id: 3,
     title: "BESPOKE TAILORING",
-    text: "Designed with ease of customization and multiple sizing applications in mind, bespoke tailoring is available for items in our Designer Collections. Please contact us for specific details."
+    text:
+      "Designed with ease of customization and multiple sizing applications in mind, bespoke tailoring is available for items in our Designer Collections. Please contact us for specific details.",
   },
-]
+];
 const collections = [
   {
     id: 1,
     title: "Reborn",
     subtitle: "collection",
-    text: "Inspired by the cyclical evolution of the natural and man-made world, this furniture collection is created with reclaimed wood from the Lake Tahoe basin and surrounding region.",
+    text:
+      "Inspired by the cyclical evolution of the natural and man-made world, this furniture collection is created with reclaimed wood from the Lake Tahoe basin and surrounding region.",
     collectionItems: [
       {
         id: 1,
         link: "http://roundwood.myshopify.com/products/timewerx-headboard",
         src: "/img/collections/reborn/timewerx_headboard.jpg",
-        name: "Timewerx Headboard"
+        name: "Timewerx Headboard",
       },
       {
         id: 2,
-        link: "http://roundwood.myshopify.com/products/timewerx-side-table-nightstand",
+        link:
+          "http://roundwood.myshopify.com/products/timewerx-side-table-nightstand",
         src: "/img/collections/reborn/timewerx_nightstand.jpg",
-        name: "Timewerx Nightstand"
+        name: "Timewerx Nightstand",
       },
       {
         id: 3,
         link: "http://roundwood.myshopify.com/products/lakewood-dining-table",
         src: "/img/collections/reborn/lakewood_dining_table.jpg",
-        name: "Lakewood Dining Table"
+        name: "Lakewood Dining Table",
       },
       {
         id: 4,
         link: "http://roundwood.myshopify.com/products/lakewood-coffee-table",
         src: "/img/collections/reborn/lakewood_coffee_table.jpg",
-        name: "Lakewood Coffee Table"
+        name: "Lakewood Coffee Table",
       },
       {
         id: 5,
         link: "http://roundwood.myshopify.com/products/reborn-lamp",
         src: "/img/collections/reborn/gustav_lamp.jpg",
-        name: "Gustav Lamp"
+        name: "Gustav Lamp",
       },
-    ]
+    ],
   },
   {
     id: 2,
     title: "Harmony",
     subtitle: "collection",
-    text: "This minimalist collection showcases the vibrant luster of exotic hardwoods. With simple, yet elegant forms, these furniture pieces allow the natural beauty of the wood grain to sing out.",
+    text:
+      "This minimalist collection showcases the vibrant luster of exotic hardwoods. With simple, yet elegant forms, these furniture pieces allow the natural beauty of the wood grain to sing out.",
     collectionItems: [
       {
         id: 1,
         link: "http://roundwood.myshopify.com/products/staccato-headboard",
         src: "/img/collections/harmony/staccato_headboard.jpg",
-        name: "Staccato Headboard"
+        name: "Staccato Headboard",
       },
       {
         id: 2,
-        link: "http://roundwood.myshopify.com/products/staccato-side-table-nightstand",
+        link:
+          "http://roundwood.myshopify.com/products/staccato-side-table-nightstand",
         src: "/img/collections/harmony/staccato_nightstand.jpg",
-        name: "Staccato Nightstand"
+        name: "Staccato Nightstand",
       },
       {
         id: 3,
         link: "http://roundwood.myshopify.com/products/vibrato-dining-table",
         src: "/img/collections/harmony/vibrato_dining_table.jpg",
-        name: "Vibrato Dining Table"
+        name: "Vibrato Dining Table",
       },
       {
         id: 4,
         link: "http://roundwood.myshopify.com/products/vibrato-coffee-table",
         src: "/img/collections/harmony/vibrato_coffee_table.jpg",
-        name: "Vibrato Coffee Table"
+        name: "Vibrato Coffee Table",
       },
       {
         id: 5,
         link: "http://roundwood.myshopify.com/products/reborn-lamp",
         src: "/img/collections/harmony/ivan_lamp.jpg",
-        name: "Ivan Lam"
+        name: "Ivan Lam",
       },
-    ]
+    ],
   },
-]
+];
 
 //lightbox
-const galleryCategories = ["Danish", "Modern", "Organic", "Asian"]
+const galleryCategories = ["Raw", "Danish", "Modern", "Organic", "Asian"];
 const galleries = [
+  {
+    src: "/img/gallery/raw/6foot_feather.jpg",
+    thumbnail: "/img/gallery/raw/6foot_feather_thumbnail.jpg",
+    alt: "6 Foot Feather table",
+    title: "6 Foot Feather – community table, 2019",
+    text: "6 Foot Feather",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/bookmatched_beeswing.jpg",
+    thumbnail: "/img/gallery/raw/bookmatched_beeswing_thumbnail.jpg",
+    alt: "Bookmatched Beeswing table",
+    title: "Bookmatched Beeswing – coffee table, 2016",
+    text: "Bookmatched Beeswing",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/flying_v.jpg",
+    thumbnail: "/img/gallery/raw/flying_v_thumbnail.jpg",
+    alt: "Flying V table",
+    title: "Flying V – coffee table, 2015",
+    text: "Flying V",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/rivers_of_flame.jpg",
+    thumbnail: "/img/gallery/raw/rivers_of_flame_thumbnail.jpg",
+    alt: "River of Flames desk",
+    title: "River of Flames – desk, 2019",
+    text: "River of Flames",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/rivulets_thumbnail.jpg",
+    thumbnail: "/img/gallery/raw/rivulets_thumbnail.jpg",
+    alt: "Rivulets banquette",
+    title: "Rivulets – banquette, 2016",
+    text: "Rivulets",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/split_tail_turquoise.jpg",
+    thumbnail: "/img/gallery/raw/split_tail_turquoise_thumbnail.jpg",
+    alt: "Split Tail Turquoise table",
+    title: "Split Tail Turquoise – coffee table, 2018",
+    text: "Split Tail Turquoise",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/twin_sister_pants.jpg",
+    thumbnail: "/img/gallery/raw/twin_sister_pants_thumbnail.jpg",
+    alt: "Twin Sister Pants table",
+    title: "Twin Sister Pants – community table, 2018",
+    text: "Twin Sister Pants",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/beaver_jam.jpg",
+    thumbnail: "/img/gallery/raw/beaver_jam_thumbnail.jpg",
+    alt: "Beaver Jam table",
+    title: "Beaver Jam – dining table, 2019",
+    text: "Beaver Jam",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/raw/aqua_maple_blossom.jpg",
+    thumbnail: "/img/gallery/raw/aqua_maple_blossom_thumbnail.jpg",
+    alt: "Aqua Maple Blossom table",
+    title: "Aqua Maple Blossom – bistro table, 2019",
+    text: "Aqua Maple Blossom",
+    category: "Raw",
+  },
+  {
+    src: "/img/gallery/danish/amber_vertebrae.jpg",
+    thumbnail: "/img/gallery/danish/amber_vertebrae_thumbnail.jpg",
+    alt: "Amber Vertebrae Table",
+    title: "Amber Vertebrae – dining table, 2016",
+    text: "Amber Vertebrae",
+    category: "Danish",
+  },
+  {
+    src: "/img/gallery/danish/danka.jpg",
+    thumbnail: "/img/gallery/danish/danka_thumbnail.jpg",
+    alt: "Danka Table",
+    title: "Danka – coffee table, 2015",
+    text: "Danka",
+    category: "Danish",
+  },
+  {
+    src: "/img/gallery/danish/feline_grain_symphonic.jpg",
+    thumbnail: "/img/gallery/danish/feline_grain_symphonic_thumbnail.jpg",
+    alt: "Feline Grain Symphonic Table",
+    title: "Feline Grain Symphonic – coffee table, 2017",
+    text: "Feline Grain Symphonic",
+    category: "Danish",
+  },
   {
     id: 1,
     src: "/img/gallery/danish/chi_gong.jpg",
+    thumbnail: "/img/gallery/danish/chi_gong_thumbnail.jpg",
     alt: "Chi Gong Table",
     title: "Chocolate Chi Gong – Coffee Table, 2015",
     text: "Chocolate Chi Gong",
-    category: "Danish"
+    category: "Danish",
   },
   {
     id: 2,
     src: "/img/gallery/danish/viking_ship_cutout.jpg",
+    thumbnail: "/img/gallery/danish/viking_ship_cutout_thumbnail.jpg",
     alt: "Viking Ship Table",
     title: "Viking Ship – Dining Table, 2016",
     text: "Viking Ship",
-    category: "Danish"
+    category: "Danish",
+  },
+  {
+    src: "/img/gallery/modern/brak_terra.jpg",
+    thumbnail: "/img/gallery/modern/brak-terra_thumbnail.jpg",
+    alt: "Bräk-Terra Table",
+    title: "Bräk-Terra – dining table, 2018",
+    text: "Bräk-Terra",
+    category: "Modern",
+  },
+  {
+    src: "/img/gallery/modern/golden_cloud_temple.jpg",
+    thumbnail: "/img/gallery/modern/golden_cloud_temple_thumbnail.jpg",
+    alt: "Golden Cloud Temple Table",
+    title: "Golden Cloud Temple – banquette table, 2019",
+    text: "Golden Cloud Temple",
+    category: "Modern",
+  },
+  {
+    src: "/img/gallery/modern/nesters_throne.jpg",
+    thumbnail: "/img/gallery/modern/nesters_throne_thumbnail.jpg",
+    alt: "Nester’s Throne bench",
+    title: "Nester’s Throne – entry bench, 2019",
+    text: "Nester’s Throne",
+    category: "Modern",
+  },
+  {
+    src: "/img/gallery/modern/q_bert.jpg",
+    thumbnail: "/img/gallery/modern/q_bert_thumbnail.jpg",
+    alt: "QBert table",
+    title: "QBert –  console table, 2016",
+    text: "QBert",
+    category: "Modern",
+  },
+  {
+    src: "/img/gallery/modern/terra_dak_table.jpg",
+    thumbnail: "/img/gallery/modern/terra_dak_table_thumbnail.jpg",
+    alt: "Terra Dak table",
+    title: "Terra Dak Table – coffee table, 2018",
+    text: "Terra Dak Table",
+    category: "Modern",
+  },
+  {
+    src: "/img/gallery/modern/the_mj.jpg",
+    thumbnail: "/img/gallery/modern/the_mj_thumbnail.jpg",
+    alt: "The “MJ” credenza",
+    title: "The “MJ” –  credenza, 2017",
+    text: "The “MJ”",
+    category: "Modern",
+  },
+  {
+    src: "/img/gallery/modern/ultra_mosaic_menagerie.jpg",
+    thumbnail: "/img/gallery/modern/ultra_mosaic_menagerie_thumbnail.jpg",
+    alt: "Ultra Mosaic Menagerie table",
+    title: "Ultra Mosaic Menagerie –  coffee table, 2016",
+    text: "Ultra Mosaic Menagerie",
+    category: "Modern",
   },
   {
     id: 3,
     src: "/img/gallery/modern/blonde_coffee.jpg",
+    thumbnail: "/img/gallery/modern/blonde_coffee_thumbnail.jpg",
     alt: "Blonde Coffee Table",
     title: "A Coffee Blonde – Coffee Table, 2014",
     text: "A Coffee Blonde",
-    category: "Modern"
+    category: "Modern",
   },
   {
     id: 4,
-    src: "/img/gallery/modern/canarywood_table.jpg",
+    src: "/img/gallery/modern/canarywood_table_thumbnail.jpg",
     alt: "Canarywood Table",
     title: "Canarywood - Dining Table, 2014",
     text: "Canarywood",
-    category: "Modern"
+    category: "Modern",
   },
   {
     id: 5,
     src: "/img/gallery/modern/meteor_katalox.jpg",
+    thumbnail: "/img/gallery/modern/meteor_katalox_thumbnail.jpg",
     alt: "Meteor Katalox",
-    title: "Meteor Katalox Dining Table – Collaboration with Striker Forge, 2015",
+    title:
+      "Meteor Katalox Dining Table – Collaboration with Striker Forge, 2015",
     text: "Meteor Katalox",
-    category: "Modern"
+    category: "Modern",
   },
   {
     id: 6,
     src: "/img/gallery/modern/claro_dandelion.jpg",
+    thumbnail: "/img/gallery/modern/claro_dandelion_thumbnail.jpg",
     alt: "Claro Dandelion",
     title: "Claro Dandelion - Dining Table, 2007",
     text: "Claro Dandelion",
-    category: "Modern"
+    category: "Modern",
   },
   {
     id: 7,
-    src: "/img/gallery/modern/steel_lily_cutout.jpg",
+    src: "/img/gallery/modern/steel_lily.jpg",
+    thumbnail: "/img/gallery/modern/steel_lily_cutout_thumbnail.jpg",
     alt: "Steel Lily",
     title: "Steel Lily Bistro Table - Collaboration with Striker Forge, 2015",
     text: "Steel Lily",
-    category: "Modern"
+    category: "Modern",
   },
   {
     id: 8,
     src: "/img/gallery/organic/coco_pele.jpg",
+    thumbnail: "/img/gallery/organic/coco_pele_thumbnail.jpg",
     alt: "Coco Pele Rocking Chair",
     title: "Coco Pele - Rocking Chair, 2003",
     text: "Coco Pele",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 9,
-    src: "/img/gallery/organic/rockers_square.jpg",
+    src: "/img/gallery/organic/lauglin_rockers.jpg",
+    thumbnail: "/img/gallery/organic/rockers_square_thumbnail.jpg",
     alt: "Rockers",
     title: "Mary of Lauglin &amp; Throne of Lauglin – Rocking Chairs, 2003",
     textSpan: "Mary of Lauglin",
     textSpan2: "Throne of Lauglin",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 10,
-    src: "/img/gallery/organic/adirondack_mirror_square.jpg",
+    src: "/img/gallery/organic/adirondack_mirror.jpg",
+    thumbnail: "/img/gallery/organic/adirondack_mirror_square_thumbnail.jpg",
     alt: "Adirondac Reflection Mirror",
     title: "Adirondac Reflection - Mirror, 2002",
     text: "Adirondac Mirror",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 11,
-    src: "/img/gallery/organic/adirondack_tv_stand_square.jpg",
+    src: "/img/gallery/organic/adirondack_tv_stand.jpg",
+    thumbnail: "/img/gallery/organic/adirondack_tv_stand_square_thumbnail.jpg",
     alt: "Adirondac TV Stand",
     title: "Adirondac Stand - TV Stand, 2002",
     text: "Adirondac Stand",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 12,
-    src: "/img/gallery/organic/kamelot_king_square.jpg",
+    src: "/img/gallery/organic/kamelot_king.jpg",
+    thumbnail: "/img/gallery/organic/kamelot_king_square_thumbnail.jpg",
     alt: "Kamelot King Bed",
     title: "Kamelot King - Bed, 2003",
     text: "Kamelot King",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 13,
     src: "/img/gallery/organic/3went.jpg",
+    thumbnail: "/img/gallery/organic/3went_thumbnail.jpg",
     alt: "Three Went Table",
     title: "3 Went - Console Table, 2003",
     text: "3 Went",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 14,
-    src: "/img/gallery/organic/rollswood_jarvie-copy.jpg",
+    src: "/img/gallery/organic/rollswood_jarvie.jpg",
+    thumbnail: "/img/gallery/organic/rollswood_jarvie-copy_thumbnail.jpg",
     alt: "Rollswood Jarvie Desk",
     title: "Rollswood Jarvie - Desk, 2000",
     text: "Rollswood Jarvie",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 15,
     src: "/img/gallery/organic/rollswood_chair.jpg",
+    thumbnail: "/img/gallery/organic/rollswood_chair_thumbnail.jpg",
     alt: "Rollswood Chair",
     title: "Rollswood Chair, 2000",
     text: "Rollswood Chair",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 16,
-    src: "/img/gallery/organic/basilica_square.jpg",
+    src: "/img/gallery/organic/basilica.jpg",
+    thumbnail: "/img/gallery/organic/basilica_square_thumbnail.jpg",
     alt: "Basilica Table",
     title: "Basilica - Coffee Table, 2005",
     text: "Basilica",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 17,
     src: "/img/gallery/organic/buttercup.jpg",
+    thumbnail: "/img/gallery/organic/buttercup_thumbnail.jpg",
     alt: "Buttercup Table",
     title: "Buttercup - Bistro Table, 2003",
     text: "Buttercup",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 18,
-    src: "/img/gallery/organic/mandarin_tortuga_square.jpg",
+    src: "/img/gallery/organic/mandarin_tortuga.jpg",
+    thumbnail: "/img/gallery/organic/mandarin_tortuga_square_thumbnail.jpg",
     alt: "Mandarin Tortuga Table",
     title: "Mandarin Tortuga - Coffee Table, 2008",
     text: "Mandarin Tortuga",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 19,
-    src: "/img/gallery/organic/dreamcatcher_cutout.jpg",
+    src: "/img/gallery/organic/dreamcatcher.jpg",
+    thumbnail: "/img/gallery/organic/dreamcatcher_cutout_thumbnail.jpg",
     alt: "Dreamcatcher Headboard",
     title: "Dreamcatcher - Bed, 2001",
     text: "Dreamcatcher",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 20,
@@ -331,15 +533,46 @@ const galleries = [
     alt: "Temple of Traustur Table",
     title: "Temple of Traustar - Console Table, 2015",
     text: "Temple of Traustar",
-    category: "Organic"
+    category: "Organic",
   },
   {
     id: 21,
     src: "/img/gallery/organic/spun_root_blossom.jpg",
+    thumbnail: "/img/gallery/organic/spun_root_blossom_thumbnail.jpg",
     alt: "Spun Root Blossom table",
     title: "Spun Root Blossom - Standing Desk, 2012",
     text: "Spun Root Blossom",
-    category: "Organic"
+    category: "Organic",
+  },
+  {
+    src: "/img/gallery/organic/tahoe_wild.jpg",
+    thumbnail: "/img/gallery/organic/tahoe_wild_thumbnail.jpg",
+    alt: "Tahoe Wild table",
+    title: "Tahoe Wild – bistro table, 2017",
+    text: "Tahoe Wild",
+    category: "Organic",
+  },
+  {
+    src: "/img/gallery/organic/the_bonsai.jpg",
+    thumbnail: "/img/gallery/organic/the_bonsai_thumbnail.jpg",
+    alt: "The Bonsai table",
+    title: "The Bonsai – end table, 2016",
+    text: "The Bonsai",
+    category: "Organic",
+  },
+  {
+    src: "/img/gallery/asian/alpina_cutout.jpg",
+    alt: "Cheen Waka Bench",
+    title: "Cheen Waka – bench, 2017",
+    text: "Cheen Waka",
+    category: "Asian",
+  },
+  {
+    src: "/img/gallery/asian/alpina_cutout.jpg",
+    alt: "Gaudi Desk",
+    title: "Gaudi Desk – desk, 2017",
+    text: "Gaudi Desk",
+    category: "Asian",
   },
   {
     id: 22,
@@ -347,7 +580,7 @@ const galleries = [
     alt: "Alpina Rocker Chair",
     title: "Alpina-esque - Rocking Chair, 2007",
     text: "Alpina-esque",
-    category: "Asian"
+    category: "Asian",
   },
   {
     id: 23,
@@ -355,7 +588,7 @@ const galleries = [
     alt: "Mantis Desk",
     title: "Mantis - Desk, 2006",
     text: "Asta Beau",
-    category: "Asian"
+    category: "Asian",
   },
   {
     id: 24,
@@ -363,7 +596,7 @@ const galleries = [
     alt: "Fugu Niechie Table",
     title: "Fugu Niechie - Console Table, 2005",
     text: "Fugu Niechie",
-    category: "Asian"
+    category: "Asian",
   },
   {
     id: 25,
@@ -371,15 +604,16 @@ const galleries = [
     alt: "Eye Ching Table",
     title: "Eye Ching - Coffee Table, 2004",
     text: "Eye Ching",
-    category: "Asian"
+    category: "Asian",
   },
   {
     id: 26,
-    src: "/img/gallery/asian/smeagols_time_capsule_cutout.jpg",
+    src: "/img/gallery/asian/smeagol_desk.jpg",
+    thumbnail: "/img/gallery/asian/smeagols_time_capsule_cutout.jpg",
     alt: "Smeagol's Time Capsule Desk",
     title: "Smeagol's Time Capsule – Collaboration with Devon Price, 2014",
     text: "Smeagol's Time Capsule",
-    category: "Asian"
+    category: "Asian",
   },
   {
     id: 27,
@@ -387,7 +621,7 @@ const galleries = [
     alt: "Asta Beau Table",
     title: "Asta Beau – Console Table, 2006",
     text: "Asta Beau",
-    category: "Asian"
+    category: "Asian",
   },
   {
     id: 28,
@@ -395,24 +629,41 @@ const galleries = [
     alt: "El Dorado Tempest",
     title: "El Dorado Tempest – Coffee Table, 2013",
     text: "El Dorado Tempest",
-    category: "Asian"
+    category: "Asian",
   },
   {
     id: 29,
-    src: "/img/gallery/asian/pico_de_chico_cutout.jpg",
+    src: "/img/gallery/asian/pico_chico.jpg",
+    thumbnail: "/img/gallery/asian/pico_de_chico_cutout.jpg",
     alt: "Pico de Chico Table",
     title: "Pico de Chico - Console Table, 2014",
     text: "Pico de Chico",
-    category: "Asian"
-  }
-]
+    category: "Asian",
+  },
+];
 const installationCategories = [
-  { id: 1, title: "Uncorked Tahoe City Logo", src: "/img/installations/tahoe/uncorked_tc_logo_300.jpg" },
-  { id: 2, title: "Uncorked Squaw Valley Logo", src: "/img/installations/squaw/uncorked_sv_logo_300.jpg" },
-  { id: 3, title: "Coffee Bar Logo", src: "/img/installations/coffeeBar/coffeebar_logo_300.jpg" },
-  { id: 4, title: "Transformations Salon Logo", src: "/img/installations/transformations/transformations_logo_300.jpg" },
-  { id: 5, title: "Custom Patio Bar" }
-]
+  {
+    id: 1,
+    title: "Uncorked Tahoe City Logo",
+    src: "/img/installations/tahoe/uncorked_tc_logo_300.jpg",
+  },
+  {
+    id: 2,
+    title: "Uncorked Squaw Valley Logo",
+    src: "/img/installations/squaw/uncorked_sv_logo_300.jpg",
+  },
+  {
+    id: 3,
+    title: "Coffee Bar Logo",
+    src: "/img/installations/coffeeBar/coffeebar_logo_300.jpg",
+  },
+  {
+    id: 4,
+    title: "Transformations Salon Logo",
+    src: "/img/installations/transformations/transformations_logo_300.jpg",
+  },
+  { id: 5, title: "Custom Patio Bar" },
+];
 const installations = [
   {
     id: 1,
@@ -420,7 +671,7 @@ const installations = [
     alt: "Uncorked Tahoe City 1",
     title: "Uncorked Tahoe City",
     text: "Uncorked Tahoe City",
-    category: "Uncorked Tahoe City Logo"
+    category: "Uncorked Tahoe City Logo",
   },
   {
     id: 2,
@@ -428,7 +679,7 @@ const installations = [
     alt: "Uncorked Tahoe City 2",
     title: "Uncorked Tahoe City",
     text: "Uncorked Tahoe City",
-    category: "Uncorked Tahoe City Logo"
+    category: "Uncorked Tahoe City Logo",
   },
   {
     id: 3,
@@ -436,7 +687,7 @@ const installations = [
     alt: "Uncorked Tahoe City 3",
     title: "Uncorked Tahoe City",
     text: "Uncorked Tahoe City",
-    category: "Uncorked Tahoe City Logo"
+    category: "Uncorked Tahoe City Logo",
   },
   {
     id: 4,
@@ -444,7 +695,7 @@ const installations = [
     alt: "Uncorked Tahoe City 4",
     title: "Uncorked Tahoe City",
     text: "Uncorked Tahoe City",
-    category: "Uncorked Tahoe City Logo"
+    category: "Uncorked Tahoe City Logo",
   },
   {
     id: 5,
@@ -452,7 +703,7 @@ const installations = [
     alt: "Uncorked Tahoe City 5",
     title: "Uncorked Tahoe City",
     text: "Uncorked Tahoe City",
-    category: "Uncorked Tahoe City Logo"
+    category: "Uncorked Tahoe City Logo",
   },
   {
     id: 6,
@@ -460,7 +711,7 @@ const installations = [
     alt: "Uncorked Squaw Valley 4",
     title: "Uncorked Squaw Valley",
     text: "Uncorked Squaw Valley",
-    category: "Uncorked Squaw Valley Logo"
+    category: "Uncorked Squaw Valley Logo",
   },
   {
     id: 7,
@@ -468,7 +719,7 @@ const installations = [
     alt: "Uncorked Squaw Valley 6",
     title: "Uncorked Squaw Valley",
     text: "Uncorked Squaw Valley",
-    category: "Uncorked Squaw Valley Logo"
+    category: "Uncorked Squaw Valley Logo",
   },
   {
     id: 8,
@@ -476,7 +727,7 @@ const installations = [
     alt: "Uncorked Squaw Valley 1",
     title: "Uncorked Squaw Valley",
     text: "Uncorked Squaw Valley",
-    category: "Uncorked Squaw Valley Logo"
+    category: "Uncorked Squaw Valley Logo",
   },
   {
     id: 9,
@@ -484,7 +735,7 @@ const installations = [
     alt: "Uncorked Squaw Valley 5",
     title: "Uncorked Squaw Valley",
     text: "Uncorked Squaw Valley",
-    category: "Uncorked Squaw Valley Logo"
+    category: "Uncorked Squaw Valley Logo",
   },
   {
     id: 10,
@@ -492,7 +743,7 @@ const installations = [
     alt: "Coffee Bar Truckee",
     title: "Coffee Bar Truckee",
     text: "Coffee Bar Truckee",
-    category: "Coffee Bar Logo"
+    category: "Coffee Bar Logo",
   },
   {
     id: 11,
@@ -500,7 +751,7 @@ const installations = [
     alt: "Coffee Bar Truckee",
     title: "Coffee Bar Truckee",
     text: "Coffee Bar Truckee",
-    category: "Coffee Bar Logo"
+    category: "Coffee Bar Logo",
   },
   {
     id: 12,
@@ -508,7 +759,7 @@ const installations = [
     alt: "Coffee Bar Truckee",
     title: "Coffee Bar Truckee",
     text: "Coffee Bar Truckee",
-    category: "Coffee Bar Logo"
+    category: "Coffee Bar Logo",
   },
   {
     id: 13,
@@ -516,7 +767,7 @@ const installations = [
     alt: "Coffee Bar Truckee",
     title: "Coffee Bar Truckee",
     text: "Coffee Bar Truckee",
-    category: "Coffee Bar Logo"
+    category: "Coffee Bar Logo",
   },
   {
     id: 14,
@@ -524,7 +775,7 @@ const installations = [
     alt: "Coffee Bar Truckee",
     title: "Coffee Bar Truckee",
     text: "Coffee Bar Truckee",
-    category: "Coffee Bar Logo"
+    category: "Coffee Bar Logo",
   },
   {
     id: 15,
@@ -532,7 +783,7 @@ const installations = [
     alt: "Transformations Salon",
     title: "Transformations Salon",
     text: "Transformations Salon",
-    category: "Transformations Salon Logo"
+    category: "Transformations Salon Logo",
   },
   {
     id: 16,
@@ -540,7 +791,7 @@ const installations = [
     alt: "Transformations Salon",
     title: "Transformations Salon",
     text: "Transformations Salon",
-    category: "Transformations Salon Logo"
+    category: "Transformations Salon Logo",
   },
   {
     id: 17,
@@ -548,7 +799,7 @@ const installations = [
     alt: "Transformations Salon",
     title: "Transformations Salon",
     text: "Transformations Salon",
-    category: "Transformations Salon Logo"
+    category: "Transformations Salon Logo",
   },
   {
     id: 18,
@@ -556,7 +807,7 @@ const installations = [
     alt: "Transformations Salon",
     title: "Transformations Salon",
     text: "Transformations Salon",
-    category: "Transformations Salon Logo"
+    category: "Transformations Salon Logo",
   },
   {
     id: 19,
@@ -564,7 +815,7 @@ const installations = [
     alt: "Transformations Salon",
     title: "Transformations Salon",
     text: "Transformations Salon",
-    category: "Transformations Salon Logo"
+    category: "Transformations Salon Logo",
   },
   {
     id: 20,
@@ -572,7 +823,7 @@ const installations = [
     alt: "Custom Patio Bar",
     title: "Custom Patio Bar",
     text: "Custom Patio Bar",
-    category: "Custom Patio Bar"
+    category: "Custom Patio Bar",
   },
   {
     id: 21,
@@ -580,7 +831,7 @@ const installations = [
     alt: "Custom Patio Bar",
     title: "Custom Patio Bar",
     text: "Custom Patio Bar",
-    category: "Custom Patio Bar"
+    category: "Custom Patio Bar",
   },
   {
     id: 22,
@@ -588,7 +839,7 @@ const installations = [
     alt: "Custom Patio Bar",
     title: "Custom Patio Bar",
     text: "Custom Patio Bar",
-    category: "Custom Patio Bar"
+    category: "Custom Patio Bar",
   },
   {
     id: 23,
@@ -596,7 +847,7 @@ const installations = [
     alt: "Custom Patio Bar",
     title: "Custom Patio Bar",
     text: "Custom Patio Bar",
-    category: "Custom Patio Bar"
+    category: "Custom Patio Bar",
   },
   {
     id: 24,
@@ -604,11 +855,11 @@ const installations = [
     alt: "Custom Patio Bar",
     title: "Custom Patio Bar",
     text: "Custom Patio Bar",
-    category: "Custom Patio Bar"
-  }
-]
+    category: "Custom Patio Bar",
+  },
+];
 
-export {
+module.exports = {
   about,
   collections,
   designerCollectionsDescrioptions,
@@ -620,4 +871,4 @@ export {
   homeContentColumns,
   footerMenu,
   footerMenu2,
-}
+};

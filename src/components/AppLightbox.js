@@ -20,8 +20,8 @@ class AppLightbox extends React.Component {
     const { item } = this.props;
     return (
       <>
-        <div className="collection-item" key={item.id} onClick={this.handleClick}>
-          <img src={item.src} alt={item.alt} />
+        <div className="collection-item" key={item.title} onClick={this.handleClick}>
+          <img src={item.thumbnail || item.src} alt={item.alt} />
           {item.title && <div className="image-overlay">
             {item.text && <p>{item.text}
               {item.textSpan
