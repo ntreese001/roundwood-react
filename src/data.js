@@ -310,7 +310,7 @@ const galleries = [
   },
   {
     id: 2,
-    src: "/img/gallery/danish/viking_ship_cutout.jpg",
+    src: "/img/gallery/danish/viking_ship.jpg",
     thumbnail: "/img/gallery/danish/viking_ship_cutout_thumbnail.jpg",
     alt: "Viking Ship Table",
     title: "Viking Ship – Dining Table, 2016",
@@ -432,9 +432,8 @@ const galleries = [
     src: "/img/gallery/organic/lauglin_rockers.jpg",
     thumbnail: "/img/gallery/organic/rockers_square_thumbnail.jpg",
     alt: "Rockers",
-    title: "Mary of Lauglin &amp; Throne of Lauglin – Rocking Chairs, 2003",
-    textSpan: "Mary of Lauglin",
-    textSpan2: "Throne of Lauglin",
+    title: "Mary of Lauglin & Throne of Lauglin – Rocking Chairs, 2003",
+    text: "Mary of Lauglin",
     category: "Organic",
   },
   {
