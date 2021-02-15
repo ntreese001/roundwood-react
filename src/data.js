@@ -561,14 +561,16 @@ const galleries = [
     category: "Organic",
   },
   {
-    src: "/img/gallery/asian/alpina_cutout.jpg",
+    src: "/img/gallery/asian/cheen_waka.jpg",
+    thumbnail: "/img/gallery/asian/cheen_waka_thumbnail.jpg",
     alt: "Cheen Waka Bench",
     title: "Cheen Waka – bench, 2017",
     text: "Cheen Waka",
     category: "Asian",
   },
   {
-    src: "/img/gallery/asian/alpina_cutout.jpg",
+    src: "/img/gallery/asian/gaudi_desk.jpg",
+    thumbnail: "/img/gallery/asian/gaudi_desk_thumbnail.jpg",
     alt: "Gaudi Desk",
     title: "Gaudi Desk – desk, 2017",
     text: "Gaudi Desk",
