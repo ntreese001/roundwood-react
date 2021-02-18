@@ -1,6 +1,5 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import { Chevron } from "../components/Chevron"
+import React from "react";
+import { Chevron } from "../components/Chevron";
 
 export const Contact = () => {
   return (
@@ -11,21 +10,33 @@ export const Contact = () => {
 
       <hr className="gray-hr" />
       <div className="gallery-series-intro">
-        <p>Have we tempted you with our timeless tree-stump tables? Our delectable deciduous doorways?
-                            Or our beautiful burl-wood boudoirs?</p>
+        <p>
+          Have we tempted you with our timeless tree-stump tables? Our
+          delectable deciduous doorways? Or our beautiful burl-wood boudoirs?
+        </p>
 
-        <p>If so, please contact us using the form below. If time is of the essence, feel free to call us,
-                                but keep in mind that it may be difficult to answer the phone if we’re deep in the creative process.</p>
-
-
-        <div className="margin-top-75 margin-bottom-75">
-          <Link className="margin-0-auto black-button" to="/trade-sales/">trade sales sign-up</Link>
-        </div>
-
+        <p>If so, please contact us using the form below.</p>
+        {/* <img src="/img/ocean_hydro_2.jpg" alt="ocean hydro" style={{
+          width:"90%",
+          display: "block",
+        marginLeft: "auto",
+        marginRight: "auto"
+        }}></img> */}
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe-7gdbsGoNiF34rXUJbQljrJ7D27sFDXMYcuUbgPwx8Q_QNw/viewform?embedded=true"
+          width="100%"
+          height="800"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="contact-form"
+        >
+          Loading…
+        </iframe>
       </div>
       <Chevron />
 
       <div className="trade-sales-spacer"></div>
     </div>
-  )
-}
+  );
+};
