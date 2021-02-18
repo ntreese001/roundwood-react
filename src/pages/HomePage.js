@@ -13,7 +13,7 @@ export const HomePage = () => {
         <hr className="hero-hr" />
 
         <div className="hero-button-container">
-          <Link className="hero-button" to="/designer-collections/">explore gallery</Link>
+          <Link className="hero-button" to="/gallery-series/">explore gallery</Link>
         </div>
 
         <div id="hero-3dots">
