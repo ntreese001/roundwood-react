@@ -9,30 +9,51 @@ export const Contact = () => {
       </div>
 
       <hr className="gray-hr" />
-      <div className="gallery-series-intro">
+      <div className="contact-form">
+        <img
+          src="/img/ocean_hydro_2.jpg"
+          alt="ocean hydro"
+          style={{
+            width: "100%",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        ></img>
         <p>
           Have we tempted you with our timeless tree-stump tables? Our
           delectable deciduous doorways? Or our beautiful burl-wood boudoirs?
         </p>
 
         <p>If so, please contact us using the form below.</p>
-        {/* <img src="/img/ocean_hydro_2.jpg" alt="ocean hydro" style={{
-          width:"90%",
-          display: "block",
-        marginLeft: "auto",
-        marginRight: "auto"
-        }}></img> */}
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSe-7gdbsGoNiF34rXUJbQljrJ7D27sFDXMYcuUbgPwx8Q_QNw/viewform?embedded=true"
-          width="100%"
-          height="800"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          title="contact-form"
-        >
-          Loading…
-        </iframe>
+        <div class="container">
+          <form action="https://submit-form.com/2PR7BMdG">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required=""
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required=""
+            />
+            <textarea
+              id="message"
+              style={{
+                height: "150px",
+              }}
+              name="message"
+              placeholder="Message"
+              required=""
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
       </div>
       <Chevron />
 
