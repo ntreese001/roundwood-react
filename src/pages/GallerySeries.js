@@ -42,7 +42,7 @@ export const GallerySeries = () => {
             <div className="collection-grid-container">
               <div className="collection-intro-box fusion-title">
                 <h3 className="aclonica">{category}</h3>
-                <h4>fusion</h4>
+                {category === "Elemental" ?  (<h4>series</h4>): (<h4>fusion</h4>)}
               </div>
               {galleries.map((item, index) => {
                 return (
