@@ -26,7 +26,7 @@ export const Contact = () => {
         </p>
 
         <p>If so, please contact us using the form below.</p>
-        <div class="container">
+        <div className="container">
           <form action="https://submit-form.com/2PR7BMdG">
             <input
               type="text"
