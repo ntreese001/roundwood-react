@@ -93,7 +93,7 @@ export const About = () => {
           </div>
         </>
       ) : (
-        <div>No content</div>
+        <div>{/* No Content*/}</div>
       )}
     </div>
   );

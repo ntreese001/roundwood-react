@@ -101,7 +101,7 @@ export const GallerySeries = () => {
             })}
           </div>
         ) : (
-          <div>No content</div>
+          <div>{/* No Content*/}</div>
         )}
       </div>
     </>

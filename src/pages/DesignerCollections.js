@@ -95,7 +95,7 @@ export const DesignerCollections = () => {
           })}
         </>
       ) : (
-        <div>No Content</div>
+        <div>{/* No Content*/}</div>
       )}
     </div>
   );

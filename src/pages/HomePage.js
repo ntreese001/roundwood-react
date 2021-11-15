@@ -96,7 +96,7 @@ export const HomePage = () => {
             </div>
           </>
         ) : (
-          <div>No content</div>
+          <div>{/* No Content*/}</div>
         )}
       </section>
     </>

@@ -1,14 +1,12 @@
-// Import Prismic JavaScript Libraries
+// import Prismic JavaScript Libraries
 import Prismic from "@prismicio/client";
 import { RichText } from "prismic-reactjs";
 
-//Import Prismic API credentials
+// import Prismic API credentials
 import { client } from "../prismic-configuration";
 
 import React, { useEffect, useState } from "react";
-
 import { Chevron } from "../components/Chevron";
-
 import InstallationLightbox from "../components/InstallationLightbox";
 import { Link } from "react-router-dom";
 
@@ -97,7 +95,7 @@ export const CustomInstallation = () => {
           <Chevron />
         </>
       ) : (
-        <div>No content</div>
+        <div>{/* No Content*/}</div>
       )}
     </div>
   );

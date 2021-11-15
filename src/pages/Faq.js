@@ -81,7 +81,7 @@ export const Faq = () => {
           </div>
         </>
       ) : (
-        <h1>No Content</h1>
+        <div>{/* No Content*/}</div>
       )}
     </div>
   );
